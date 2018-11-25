@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
         val boolMethodOne = RootChecker.checkRootMethodOne()
         val boolMethodTwo = RootChecker.checkRootMethodTwo()
 
-        if (boolMethodOne || boolMethodTwo) {
+        if (boolMethodOne && boolMethodTwo) {
             circlePhoneBackground.setBackgroundResource(R.drawable.circle_rooted)
             textRootStatus.text = "# Rooted!"
             textRootStatus.setTextColor(resources.getColor(R.color.colorRooted))
