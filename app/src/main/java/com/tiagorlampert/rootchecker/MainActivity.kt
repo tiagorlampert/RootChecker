@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonClose.setOnClickListener {
-            finish();
-            System.exit(0);
+            finish()
+            System.exit(0)
         }
     }
 
